@@ -23,4 +23,3 @@ resetBtn.onclick = function(){
 count = 0;
 countlabel.textContent = count;                                                                                                                                        
 }
-
