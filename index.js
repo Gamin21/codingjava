@@ -10,14 +10,16 @@ count ++;
 countlabel.textContent = count;                                                                                                                                        
 
 }
-decreaseBtn.onclick = function(){
+decreaseBtn.onclick = function() {
+  if (count > 0) {
+    count--;
+    countlabel.textContent = count;
+  }
 
-count --;
-countlabel.textContent = count;                                                                                                                                        
-}
 
 resetBtn.onclick = function(){
 
 count = 0;
 countlabel.textContent = count;                                                                                                                                        
+
 }
